@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from './components/Navbar'
-import TextEditor from './components/TextEditor'
+import Navbar from '../components/Navbar'
+import TextEditor from '../components/TextEditor'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 export default function DocumentPage() {
